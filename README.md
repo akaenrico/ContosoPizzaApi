@@ -12,3 +12,10 @@ Connect to the web API
 ```pwsh
 httprepl http://localhost:{PORT}/swagger/v1/swagger.json
 ```
+
+After accessing for the first time using the command above, i was able to use the suggested command:
+```pwsh
+httprepl http://localhost:{PORT}
+```
+
+**Personal note: Find out why it didn't work out running the suggested command at first**
